@@ -10,3 +10,4 @@ describe('CutText', () => {
     expect(() => { cutText([], 20) }).to.throw('Error');
     expect(() => { cutText(function () { }, 20) }).to.throw('Error');
   });
+}
